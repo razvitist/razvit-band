@@ -1,0 +1,961 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://razvitist.github.io/razvit-band/getting-started/">
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../ota/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>🚀 Начало работы - band.razvit</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../styles.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="deep-orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="band.razvit" class="md-header__button md-logo" aria-label="band.razvit" data-md-component="logo">
+      
+  <img src="../img/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            band.razvit
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              🚀 Начало работы
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="band.razvit" class="md-nav__button md-logo" aria-label="band.razvit" data-md-component="logo">
+      
+  <img src="../img/logo.svg" alt="logo">
+
+    </a>
+    band.razvit
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🔥 Band Razvit
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🚀 Начало работы
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🚀 Начало работы
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        👋 Введение
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="👋 Введение">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ❗ Проблема
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ✅ Решение
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔋 Зарядка
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🕹️ Включение и кнопки
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🪢 Регулировка ремешка
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ⚙️ Основные настройки
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="⚙️ Основные настройки">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🏠 Основные
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wi-fi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📡 Wi-Fi
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔋 Аккумулятор
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ⏰ Расписание
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        💾 Импорт / экспорт
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🎓 Подробности для изучения
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ota/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    💾 Обновление прошивки
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🔗 Интеграции
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🔗 Интеграции
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../integrations/websites/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🌐 Сайты и приложения
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../integrations/extension/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🧩 Расширение для браузера
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../integrations/program/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    💻 Программа для компьютера
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        👋 Введение
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="👋 Введение">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ❗ Проблема
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ✅ Решение
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔋 Зарядка
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🕹️ Включение и кнопки
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🪢 Регулировка ремешка
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ⚙️ Основные настройки
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="⚙️ Основные настройки">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🏠 Основные
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wi-fi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📡 Wi-Fi
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔋 Аккумулятор
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ⏰ Расписание
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        💾 Импорт / экспорт
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🎓 Подробности для изучения
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="_1">Туториал по использованию браслета</h1>
+<h2 id="_2">👋 Введение</h2>
+<h3 id="_3">❗ Проблема</h3>
+<p>В современном мире каждый сталкивается с проблемой лени и прокрастинации. Люди часто получают удовольствие от того, что несёт им вред. Я же хочу сделать так, чтобы лень не мешала никому делать то, что для него действительно важно, учиться, развиваться и становится лучше.</p>
+<h3 id="_4">✅ Решение</h3>
+<p>Я разработал браслет для повышения продуктивности и победы над ленью. Браслет настраивается с помощью удобного веб-интерфейса. После настройки подключается к интернету через Wi-Fi. Подключение к API различных сервисов позволяет контролировать выполнение многих задач. Если задача не выполняется, то браслет начинает нагреваться, тем самым стимулируя пользователя к работе или учёбе. Устройство создано на основе чипа ESP32, что позволяет пользователю загружать собственный Arduino код и применять его во множестве различных сценариев.</p>
+<h2 id="_5">🔋 Зарядка</h2>
+<p>Браслет заряжается с помощью USB-C. Процесс зарядки можно увидеть на <a href="http://10.1.1.1/battery">http://10.1.1.1/battery</a> (описано далее).</p>
+<h2 id="_6">🕹️ Включение и кнопки</h2>
+<p><img alt="band buttons" src="../img/buttons.svg" /></p>
+<p>У браслета есть 3 кнопки утопленные в корпус. Чтобы их нажать, нужно использовать зубочистки или иголки. Возьми сразу две, т.к. нужны обе для некоторых комбинаций.</p>
+<p>⚡ Включение / перезагрузка - нажми <strong>reset</strong>.</p>
+<p>⚙️ Режим настройки - зажми <strong>prog</strong> и нажми <strong>reset</strong>. Светодиоды начнут переливаться радугой.</p>
+<p>🔌 Выключение - зажми <strong>boot</strong> и <strong>prog</strong>, когда устройство включено. Загорится красный светодиод и плавно погаснет.</p>
+<p>💾 Режим загрузки прошивки - зажми <strong>boot</strong> и нажми <strong>reset</strong>.</p>
+<h2 id="_7">🪢 Регулировка ремешка</h2>
+<p>Инструкция по регулировке ремешка нарисована на коробке. Для регулировки потребуется маленькая плоская отвёртка идущая в комплекте.</p>
+<h2 id="_8">⚙️ Основные настройки</h2>
+<p>Для настройки не нужно скачивать никакие приложения. Браслет можно настроить с помощью смартфона, планшета, ноутбука и любого другого устройства, которое способно подключаться к Wi-Fi и открывать сайты.</p>
+<p>Сначала нужно включить режим настройки. Зажми кнопки prog и нажми reset. Светодиоды начнут переливаться радугой.</p>
+<p><img alt="Connect" src="../img/connect.png" /></p>
+<p>Браслет создаёт Wi-Fi точку, к которой нужно подключиться, чтобы его настроить. После ввода имени сети и пароля (по умолчанию <strong><em>Band</em></strong> и <strong><em>12345678</em></strong>), нужно зайти в браузер и перейти по адресу <a href="http://10.1.1.1">http://<strong>10.1.1.1</strong></a>. В результате откроется главная страница настроек.
+Затем нужно нажать на интересующую вкладку, далее будет описана каждая из них.<br />
+Внизу у большинства вкладок находятся кнопки <strong>Сохранить</strong> и <strong>Отменить</strong>, благодаря которым заполненная форма либо отправляется на браслет и сохраняется на нём, либо изменения отменяются, то есть остаются значения, которые были на браслете.</p>
+<p><img alt="Settings" src="../img/web-settings.png" /></p>
+<h3 id="_9">🏠 Основные</h3>
+<p>Во вкладке можно выбрать имя для браслета и пароль, которые будут использоваться для подключения к настройкам.</p>
+<p><img alt="Main" src="../img/web-main.png" /></p>
+<!-- > [!CAUTION]
+> Выставление безопасного уровня нагрева является твоей задачей! -->
+
+<div class="admonition danger">
+<p class="admonition-title">Важно</p>
+<p>Выставление безопасного уровня нагрева является твоей задачей!</p>
+</div>
+<p>Также можно выставить подходящий лично тебе уровень нагрева от 0 до 255 (это не градусы, а мощность ШИМ, где 0 - нет нагрева, а 255 - максимальный нагрев). (Для регулирования мощности нагревателя используется ШИМ (Широтно Импульсная Модуляция). Этот метод работает за счёт пульсирующего включения и выключения напряжения. Плата способна генерировать ШИМ с 0 до 255, где 0 - полностью выключено, а 255 - сигнал подан постоянно.)</p>
+<p><img alt="Main" src="../img/web-main-2.png" /></p>
+<p>Внизу так же есть кнопки для перезагрузки и выключения браслета.</p>
+<h3 id="wi-fi">📡 Wi-Fi</h3>
+<p>Во вкладке Wi-Fi нужно ввести данные сети, к которой будет подключаться браслет.</p>
+<p><img alt="Wi-Fi" src="../img/web-wifi.png" /></p>
+<p>Если хочешь подключиться к открытой сети, то оставь поле для пароля пустым.</p>
+<p>Можно ввести сразу несколько сетей, а браслет будет подключаться к сети с наилучшим сигналом, что полезно, если нужно использовать браслет в разных помещениях.</p>
+<p>Можно использовать режим модема, так же как обычный Wi-Fi, но это не всегда удобно. Режим модема на iPhone автоматически выключается, если к нему никто не подключен, что не позволяет его использовать для браслета. Android смартфон будет быстрее разряжаться.</p>
+<p>Старайтесь находиться как можно ближе к источнику Wi-Fi, чтобы браслет работал корректно.</p>
+<h3 id="_10">🔋 Аккумулятор</h3>
+<p>Во вкладке аккумулятор можно посмотреть текущий заряд аккумулятора и установить время сна после неудачной попытки подключения к Wi-Fi или при отсутствии расписания. Увеличение времени сна позволит сэкономить заряд аккумулятора.</p>
+<p><img alt="Battery" src="../img/web-battery.png" /></p>
+<h3 id="_11">⏰ Расписание</h3>
+<p>Во вкладке расписания вводятся правила, по которым будет действовать браслет в течении недели.</p>
+<p>Для создания нового правила нужно нажать на кнопку с плюсом.<br />
+Нужно выбрать один или несколько режимов работы (если включены, например Stepik и Codewars, то достаточно выполнять один из них). В некоторых случаях это бывает очень полезно, когда нужно, например, учиться на Stepik и повторять информацию в Anki одновременно.<br />
+После чего нужно выбрать время начала и завершения правила и выставить дни недели, в которые оно будет работать.</p>
+<p>Также можно менять правила местами с помощью стрелочек вверх и вниз или удалить, используя крестик. Расположение правил имеет значение, т.к. они проверяются сверху вниз, пока не будет найдено первое подходящее по времени и дню недели правило.</p>
+<p>Если выбрать Sleep, то браслет будет отправляться в глубокий сон пока не закончится время правила.</p>
+<p><img alt="Schedule" src="../img/web-schedule.png" /></p>
+<p>При нажатии кнопки Сохранить на браслет отправляется POST запрос с JSON, в котором хранится информация о расписании.</p>
+<h3 id="_12">💾 Импорт / экспорт</h3>
+<p>Настройки можно сохранить в формате JSON, а затем загрузить обратно на браслет, что очень полезно при обновлении файловой системы и в других ситуациях, когда настройки могут пропасть.</p>
+<p><img alt="Schedule" src="../img/web-import.png" /></p>
+<h2 id="_13">🎓 Подробности для изучения</h2>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=fXa_2rllZTI">Что такое API?</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLgAbBhxTglwmVxDDC5TSYUI91oZ0LZQMw">Уроки Arduino и программирования</a></li>
+<li><a href="https://www.youtube.com/watch?v=2O8pkybH6po">Learn HTML forms in 8 minutes</a></li>
+<li><a href="https://www.youtube.com/watch?v=FGV1snPOcas">Что такое ШИМ?</a></li>
+<li><a href="https://www.youtube.com/watch?v=rCmaMST8qkg">ШИМ сигнал в Arduino</a></li>
+<li><a href="https://ru.wikipedia.org/wiki/ESP32">ESP32</a></li>
+<li><a href="https://ru.wikipedia.org/wiki/POST_(HTTP)">POST</a></li>
+<li><a href="https://ru.wikipedia.org/wiki/JSON">JSON</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.sections", "navigation.path"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
